@@ -13,6 +13,9 @@
   .pill-nav a:hover {
     background-color: #ADD9FF;
     color: #2F2D1E;
+    border-style:solid;
+    border-color:2F2D1E;
+    border-radius: 100px;
   }
 
   .pill-nav a.active {
@@ -22,5 +25,14 @@
 
   h1 {
   color:#2F2D1E;
-  margin-left: 20px;
+  text-align:center;
 }
+
+
+  h2 {
+    background-color:#ffffff;
+  }
+
+  p {
+    background-color:#ffffff;
+  }
