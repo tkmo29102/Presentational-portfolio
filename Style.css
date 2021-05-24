@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+  .pill-nav a {
+    display: inline-block;
+    color: #2F2D1E;
+    text-align: center;
+    padding: 14 px;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 5px;
+  }
+
+  .pill-nav a:hover {
+    background-color: #ADD9FF;
+    color: #2F2D1E;
+  }
+
+  .pill-nav a.active {
+    background-color: #ADD9FF;
+    color: 2F2D1E;
+  }
+
+  h1 {
+  color:#2F2D1E;
+  margin-left: 20px;
+}
