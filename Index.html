@@ -2,12 +2,15 @@
 <html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
 
 <title>
    Hvem er jeg?
 </title>
 
-  <link rel="stylesheet" href="style.css">
+  <div class="main content"> </div>
+  <div class="right sidebar"
 
   <body style="background-color:#EDECE3;">
 
@@ -15,24 +18,28 @@
 
 <body>
 
-  <img src="logo.png" width="300px" height="228px" alt="Logo">
+<img id="logo" src="logo.png" width="428px" height="328px" alt="Logo">
 
-  <div class="pill-nav">
-    <a class="active" href="#om mig" >Om mig</a>
-    <a href="#kompetencer">Kompetencer</a>
-    <a href="#kontakt">Kontakt</a>
-  </div>
+  <ul>
+    <li><a href="om-mig.asp">Om mig</a></li>
+    <li><a href="kompetencer.asp">Kompetencer</a></li>
+    <li><a href="kontakt.asp">Kontakt</a></li>
+  </ul>
 
-<h1>
+<div class="main content"> </div>
+<h1 id="hvem">
   Hvem er jeg?
 </h1>
 
-<h2>
-  Kort om mig
-</h2>
-<p>
+<section class="container" style="max-width 200px" style="min-width:200px">
 
-       Mit navn er Trine Krogh Mørup.
+  <img id="img1" src="mit portraet.jpeg" width="355px" height="450px" alt="Portraet" style="float: right">
+
+<p id="one">
+      <span id="span1">Kort om mig </span>
+      <br>
+      <br>
+      Mit navn er Trine Krogh Mørup.
        Jeg er født og opvokset her i Odense,
        hvor jeg også studerer til
        multimediedesigner i dag.
@@ -43,15 +50,16 @@
        Jeg elsker at tilbringe tid med mine
        venner og familie, og lave nogle
        sjove ting sammen.
-</p>
+</p id="one">
+</section>
 
-<img src="mit portraet.jpeg" width="200px" height="200px" alt="Portraet">
 
-<h2>
-  Mine fremtidsdrømme
-</h2>
 
-<p>
+
+<p id="two">
+  <span id="span2">Mine fremtidsdrømme</span>
+  <br>
+  <br>
   Jeg kunne godt tænke mig at arbejde med kreative
 løsninger i eksempelvis mediebureauer eller reklame-
 bureauer, jeg brænder for at finde effektive og flotte
@@ -63,10 +71,10 @@ tænke mig at arbejde med markedsføringsstrategier
 da jeg synes det er utroligt spændende at kigge på data
 og derefter skabe en løsning man ved vil fungere, på
 baggrund af ens data og research.
-</p>
+</p id="two">
 
 <footer>
-  Copyright ©  2021 Trine Mørup
+  <p id="footer-text">Copyright ©  2021 Trine Mørup</p>
 </footer>
 
 </body>
