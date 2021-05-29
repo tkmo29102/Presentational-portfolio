@@ -125,11 +125,25 @@ header{
 
  #footer-text {
    font-family: poppins; color: #2F2D1E;
-   text-decoration-color: #2F2D1E;
+   text-decoration-color: #97b7e1;
    font-size: 20px;
    padding-bottom: 20px;
  }
 
+#kontaktfb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  margin-top: -5%;
+  margin-bottom: -5%;
+}
+
+#blaapil3 {
+  margin-top: -50%;
+  margin-bottom: -10%;
+  margin-left: 45%;
+}
 
 
  footer {
