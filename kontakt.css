@@ -58,6 +58,70 @@ header{
    background-color: #ADD9FF; opacity: 40%;
  }
 
+#kontakt {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin:auto;
+ margin-top: -5%;
+ margin-bottom: 1%;
+ }
+
+#tekst1 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  margin-top: -8%;
+  font-family: poppins;
+  background-color: white;
+  font-size: 120%;
+  border-radius: 25px;
+  border: 2px solid #97b7e1;
+  padding: 2%;
+  width: 25%
+}
+
+#blaapil {
+  margin-top: -12%;
+  margin-bottom: -10%;
+  margin-left: 35%;
+  transform: rotate(90deg);
+}
+
+#samarbejde {
+  margin-right: 19%;
+  margin-left: 9%;
+  margin-top: -5%;
+  font-family: poppins;
+  background-color: white;
+  font-size: 120%;
+  border-radius: 25px;
+  border: 2px solid #97b7e1;
+  padding: 2%;
+  width: 30%
+}
+
+#blaapil2 {
+  margin-top: -12%;
+  margin-bottom: -10%;
+  margin-left: 15%;
+}
+
+#mailtlf {
+  margin-right: 19%;
+  margin-left: 25%;
+  margin-top: 2%;
+  font-family: poppins;
+  background-color: white;
+  font-size: 120%;
+  border-radius: 25px;
+  border: 2px solid #97b7e1;
+  padding: 2%;
+  padding-right: 0%;
+  padding-left: 7%;
+  width: 27%
+}
 
  #footer-text {
    font-family: poppins; color: #2F2D1E;
@@ -65,6 +129,8 @@ header{
    font-size: 20px;
    padding-bottom: 20px;
  }
+
+
 
  footer {
    height: 45px;
