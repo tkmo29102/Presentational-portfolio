@@ -1,6 +1,4 @@
 body{
-  margin: 0;
-  padding: 0;
   background:#EDECE3;
 }
 @media only screen and (min-width:768px) and
@@ -29,7 +27,7 @@ header{
   align-items:baseline;
 }
 
- ul {
+ #menu {
    list-style-type: none;
    margin:10px;
    padding:35px;
@@ -39,7 +37,7 @@ header{
    float: right;
  }
 
- a {
+ #linkkontakt {
    display:block;
    margin-left: 10px;
    margin-right: 60px;
@@ -53,6 +51,37 @@ header{
    border-radius: 25px;
    color: black;
  }
+
+ #linkkompetencer {
+   display:block;
+   margin-left: 10px;
+   margin-right: 60px;
+   margin-top: 0px;
+   padding:10px;
+   background-color: rgba(173, 217, 255, 0.3);
+   text-decoration: none;
+   font-size: 20px;
+   font-style: normal;
+   border: 1px solid;
+   border-radius: 25px;
+   color: black;
+ }
+
+ #linkommig {
+   display:block;
+   margin-left: 10px;
+   margin-right: 60px;
+   margin-top: 0px;
+   padding:10px;
+   background-color: rgba(173, 217, 255, 0.3);
+   text-decoration: none;
+   font-size: 20px;
+   font-style: normal;
+   border: 1px solid;
+   border-radius: 25px;
+   color: black;
+ }
+
 
  li a:hover {
    background-color: #ADD9FF; opacity: 40%;
@@ -85,8 +114,8 @@ header{
 #blaapil {
   margin-top: -12%;
   margin-bottom: -10%;
-  margin-left: 35%;
-  transform: rotate(90deg);
+  margin-left: 20%;
+  transform: rotate(95deg);
 }
 
 #samarbejde {
@@ -105,12 +134,26 @@ header{
 #blaapil2 {
   margin-top: -12%;
   margin-bottom: -10%;
-  margin-left: 15%;
+  margin-left: 35%;
+}
+
+#mail {
+  margin-left: -5%;
+  margin-bottom: -15%;
+  margin-top: -1%;
+  position: absolute;
+}
+
+#telefon {
+  margin-left: -5%;
+  margin-bottom: -15%;
+  margin-top: 4.5%;
+  position: absolute;
 }
 
 #mailtlf {
   margin-right: 19%;
-  margin-left: 25%;
+  margin-left: 40%;
   margin-top: 2%;
   font-family: poppins;
   background-color: white;
@@ -118,19 +161,12 @@ header{
   border-radius: 25px;
   border: 2px solid #97b7e1;
   padding: 2%;
-  padding-right: 0%;
+  padding-right: 2%;
   padding-left: 7%;
   width: 27%
 }
 
- #footer-text {
-   font-family: poppins; color: #2F2D1E;
-   text-decoration-color: #97b7e1;
-   font-size: 20px;
-   padding-bottom: 20px;
- }
-
-#kontaktfb {
+  #kontaktfb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,17 +178,42 @@ header{
 #blaapil3 {
   margin-top: -50%;
   margin-bottom: -10%;
-  margin-left: 45%;
+  margin-left: 65%;
+  transform: rotate(-15deg);
 }
 
+#footer-text {
+  font-family: poppins; color: #2F2D1E;
+  text-decoration-color: #97b7e1;
+  margin-left: 2%;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#fbikon {
+  margin-left:90%;
+  margin-bottom: 5%;
+  margin-top: 1.5%;
+  position: absolute;
+}
+
+#igikon {
+  margin-left:93%;
+  margin-bottom: 5%;
+  margin-top: 1.5%;
+  position: absolute;
+}
 
  footer {
    height: 45px;
-   background-color: #BCBBE1; opacity:40%;
+   background-color: rgba(173, 217, 255, 0.3);
    margin-bottom:0;
    margin-top: 50px;
-   margin-right: 5px;
    padding-bottom: 20px;
-   border-radius: 18px;
-   border: 2px solid #BCBBE1;
+   text-decoration: none;
+   font-size: 20px;
+   font-style: normal;
+   border: 1px solid;
+   border-radius: 25px;
+   color: black;
  }

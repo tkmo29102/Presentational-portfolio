@@ -1,9 +1,6 @@
 body{
-  margin: 0;
-  padding: 0;
   background:#EDECE3;
 }
-
 @media only screen and (min-width:768px) and
 (max-width: 1024px) {
   .header-index{
@@ -30,7 +27,7 @@ header{
   align-items:baseline;
 }
 
- ul {
+ #menu {
    list-style-type: none;
    margin:10px;
    padding:35px;
@@ -40,7 +37,7 @@ header{
    float: right;
  }
 
- a {
+ #linkkontakt {
    display:block;
    margin-left: 10px;
    margin-right: 60px;
@@ -53,8 +50,38 @@ header{
    border: 1px solid;
    border-radius: 25px;
    color: black;
-
  }
+
+ #linkkompetencer {
+   display:block;
+   margin-left: 10px;
+   margin-right: 60px;
+   margin-top: 0px;
+   padding:10px;
+   background-color: rgba(173, 217, 255, 0.3);
+   text-decoration: none;
+   font-size: 20px;
+   font-style: normal;
+   border: 1px solid;
+   border-radius: 25px;
+   color: black;
+ }
+
+ #linkommig {
+   display:block;
+   margin-left: 10px;
+   margin-right: 60px;
+   margin-top: 0px;
+   padding:10px;
+   background-color: rgba(173, 217, 255, 0.3);
+   text-decoration: none;
+   font-size: 20px;
+   font-style: normal;
+   border: 1px solid;
+   border-radius: 25px;
+   color: black;
+ }
+
 
  li a:hover {
    background-color: #ADD9FF; opacity: 40%;
@@ -132,18 +159,36 @@ header{
 
   #footer-text {
     font-family: poppins; color: #2F2D1E;
-    text-decoration-color: #2F2D1E;
+    text-decoration-color: #97b7e1;
+    margin-left: 2%;
     font-size: 20px;
     padding-bottom: 20px;
   }
 
-  footer {
-    height: 45px;
-    background-color: #BCBBE1; opacity:40%;
-    margin-bottom:0;
-    margin-top: 50px;
-    margin-right: 5px;
-    padding-bottom: 20px;
-    border-radius: 18px;
-    border: 2px solid #BCBBE1;
+  #fbikon {
+    margin-left:90%;
+    margin-bottom: 5%;
+    margin-top: 1.5%;
+    position: absolute;
   }
+
+  #igikon {
+    margin-left:93%;
+    margin-bottom: 5%;
+    margin-top: 1.5%;
+    position: absolute;
+  }
+
+   footer {
+     height: 45px;
+     background-color: rgba(173, 217, 255, 0.3);
+     margin-bottom:0;
+     margin-top: 50px;
+     padding-bottom: 20px;
+     text-decoration: none;
+     font-size: 20px;
+     font-style: normal;
+     border: 1px solid;
+     border-radius: 25px;
+     color: black;
+   }
