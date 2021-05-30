@@ -103,7 +103,7 @@ header{
   margin: auto;
   margin-top: -4%;
   margin-bottom: -12%;
-  border: 1px solid;
+  border: 2px solid #d3b6d8;
   border-radius: 25px;
   color: #EDECE3;
 }
@@ -128,6 +128,7 @@ header{
    background-color: white;
    font-size: 100%;
    border-radius: 25px;
+   border: 2px solid #d3b6d8;
    padding: 2%;
    width: 75%
  }
@@ -148,6 +149,7 @@ header{
   margin: auto;
   margin-top: -5%;
   border-radius: 25px;
+  border: 2px solid #d3b6d8;
 }
 
 #lyseroedpil2 {
@@ -170,6 +172,7 @@ header{
   background-color: white;
   font-size: 100%;
   border-radius: 25px;
+  border: 2px solid #d3b6d8;
   padding: 2%;
   width: 75%
 }
@@ -181,6 +184,7 @@ header{
   margin:auto;
   margin-top: 3%;
   margin-bottom: 1%;
+
 }
 
 #brochure {
@@ -191,6 +195,7 @@ header{
   margin-top: -10%;
   margin-bottom: 1%;
   border-radius: 25px;
+  border: 2px solid #d3b6d8;
 }
 
 #lyseroedpil3 {
@@ -213,6 +218,7 @@ header{
   background-color: white;
   font-size: 100%;
   border-radius: 25px;
+  border: 2px solid #d3b6d8;
   padding: 2%;
   width: 75%
 }
@@ -263,6 +269,7 @@ header{
   background-color: white;
   font-size: 100%;
   border-radius: 25px;
+  border: 2px solid #d3b6d8;
   padding: 2%;
   width: 75%
 }
