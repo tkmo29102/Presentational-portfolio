@@ -93,7 +93,7 @@ header{
   align-items: center;
   margin:auto;
   margin-top: -5%;
-  margin-bottom: -2%;
+  margin-bottom: -8%;
 }
 
 #the-ordinary {
@@ -101,7 +101,7 @@ header{
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-top: 3%;
+  margin-top: -4%;
   margin-bottom: -12%;
   border: 1px solid;
   border-radius: 25px;
@@ -199,7 +199,7 @@ header{
   align-items: center;
   margin-top: -12%;
   margin-bottom: -10%;
-  margin-left: 45%;
+  margin-left: 35%;
 }
 
 #brochuretekst {
@@ -208,6 +208,56 @@ header{
   align-items: center;
   margin:auto;
   margin-top: -8%;
+  margin-bottom: 5%;
+  font-family: poppins;
+  background-color: white;
+  font-size: 100%;
+  border-radius: 25px;
+  padding: 2%;
+  width: 75%
+}
+
+#spriteanimation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 0%;
+  margin-bottom: 1%;
+  border-radius: 25px;
+}
+
+.sprite {
+		width: 500px;
+		height: 500px;
+		background: url('hjerter.png') 0 0 no-repeat;
+	   animation: play 1s steps(13) infinite;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     margin:auto;
+     margin-top: -10%;
+}
+@keyframes play {
+	0%{background-position:0px;}
+   100% { background-position: -6500px; }
+}
+
+#lyseroedpil4 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20%;
+  margin-bottom: -10%;
+  margin-left: 50%;
+}
+
+#spriteanimationtekst {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  margin-top: 2%;
   margin-bottom: 5%;
   font-family: poppins;
   background-color: white;
