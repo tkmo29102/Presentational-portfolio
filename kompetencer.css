@@ -139,7 +139,7 @@ header{
   align-items: center;
   margin:auto;
   margin-top: 3%;
-  margin-bottom: 1%;
+  margin-bottom: -8%;
 }
 
 #puppylove {
@@ -147,7 +147,7 @@ header{
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-top: -5%;
+  margin-top: -3%;
   border-radius: 25px;
   border: 2px solid #d3b6d8;
 }
@@ -167,7 +167,6 @@ header{
   justify-content: center;
   align-items: center;
   margin:auto;
-  margin-top: -8%;
   font-family: poppins;
   background-color: white;
   font-size: 100%;
